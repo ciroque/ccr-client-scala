@@ -9,6 +9,7 @@ libraryDependencies ++= {
   val sprayVersion = "1.3.3"
   Seq(
     "org.scalatest" %% "scalatest" % "2.2.4" % "test",
-    "org.easymock" % "easymock" % "3.2" % "test"
+    "org.easymock" % "easymock" % "3.2" % "test",
+    "io.spray" %% "spray-can" % sprayVersion
   )
 }
